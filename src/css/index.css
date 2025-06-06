@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-PBO: #fe0000; 
+  --font-Monserat :  "Montserrat", sans-serif;
+}
+
+
+
+
