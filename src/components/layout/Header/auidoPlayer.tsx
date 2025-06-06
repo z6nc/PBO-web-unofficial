@@ -1,38 +1,30 @@
 import { useAudioPlayer } from "../../../hooks/useAuidoPlayer";
-import { PlayIcon ,MuteIcon,PauseIcon,VolumenIcon } from "../../icons/auidoPlayerIcon";
+import { ButtomCustom } from "../../common";
+import { PlayIcon, MuteIcon, PauseIcon, VolumenIcon } from "../../icons/auidoPlayerIcon";
 export const AudioPlayer = () => {
-    const { audioRef, togglePlay, handleVolumeChange, toggleMute, isPlaying, isMuted, volume } = useAudioPlayer()
+    const { audioRef, togglePlay, toggleMute, isPlaying, isMuted, volume } = useAudioPlayer()
 
     return (
-        <div className="bg-gray-800 text-white p-4 rounded-xl flex flex-col sm:flex-row items-center gap-4 shadow-md max-w-md w-full">
-            <div className="flex items-center gap-4">
-                <button
-                    onClick={togglePlay}
-                    className=" cursor-pointer p-2 bg-red-500 rounded-full hover:bg-red-600 transition"
-                >
-                    {isPlaying ? <PauseIcon/> : <PlayIcon/>}
-                </button>
+        <div className="w-full  flex flex-col lg:flex-row    items-center  gap-9 bg-transparent border backdrop-blur-lg rounded-lg text-white p-4   md:max-w-xl  ">
+            <audio ref={audioRef} src="http://stream.radiojar.com/2fse67zuv8hvv" preload="auto" />
+            <ButtomCustom onclick={togglePlay} estilo="w-20 h-20 lg:w-18 lg:h-18  flex  items-center justify-center bg-white  p-2  rounded-full   hover:scale-105 transition cursor-pointer">
+                {isPlaying ? <PauseIcon /> : <PlayIcon />}
+            </ButtomCustom>
+            <div className="flex flex-1 items-center gap-4  ">
+                <div className=" w-12  lg:w-16 rounded-lg">
+                    <img className="w-full h-full object-cover rounded-lg  " src="https://pbo.pe/wp-content/uploads/2018/01/marisjoo-760x741.png" alt="" />
+                </div>
+                <div className="flex flex-col text-start">
+                    <span className="font-semibold">PBO Marycarmen Sjoo</span>
+                    <span className="text-sm">Escuchando en vivo</span>
+                </div>
 
-                <audio ref={audioRef} src="http://stream.radiojar.com/2fse67zuv8hvv" preload="auto" />
-
-                <span className="text-sm">Audio</span>
             </div>
 
-            <div className="flex items-center gap-2 w-full sm:w-auto">
-                <button onClick={toggleMute} className="text-gray-300 hover:text-white">
-                    {isMuted || volume === 0 ? <MuteIcon/> : <VolumenIcon/>}
-                </button>
+            <ButtomCustom onclick={toggleMute} estilo="text-gray-300 hover:text-white cursor-pointer">
+                {isMuted || volume === 0 ? <MuteIcon /> : <VolumenIcon />}
+            </ButtomCustom>
 
-                <input
-                    type="range"
-                    min="0"
-                    max="1"
-                    step="0.01"
-                    value={isMuted ? 0 : volume}
-                    onChange={handleVolumeChange}
-                    className="w-32 sm:w-24 accent-red-500"
-                />
-            </div>
         </div>
     );
 };
