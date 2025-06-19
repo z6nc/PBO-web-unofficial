@@ -1,5 +1,10 @@
 import { canalesPBO } from "../../../data/canalesPBO"
+
+
 export const ListaCanalesPbo = () => {
+
+   
+
     return (
         <section className=" my-9">
             <p className="text-lg text-white py-2 rounded-lg">Más cerca de ti, por aire, cable e internet</p>
