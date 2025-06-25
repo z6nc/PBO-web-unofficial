@@ -1,3 +1,3 @@
 export type EstiloProps = {
-  estilo: string;
+  estilo?: string;
 };
