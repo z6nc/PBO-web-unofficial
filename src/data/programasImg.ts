@@ -8,4 +8,13 @@ export const  ImagenesProgramas = {
     "PBO Campeonisimo": "https://pbo.pe/wp-content/uploads/2018/01/tigrillo-760x507.png",
     "PBO Edicion Estelar": "https://pbo.pe/wp-content/uploads/2022/12/KATHERINE-HEIGL-1-760x790.png",
     "PBO con Rvk y Carmen": "https://pbo.pe/wp-content/uploads/2022/12/RICARDO-VAZQUEZ-KUNZE-1-760x741.png",
+    "Rumbo Minero": "https://pbo.pe/wp-content/uploads/2022/12/rumbo-minero-1-760x507.png",
+    "PBO UMA Emprendedora": "https://pbo.pe/wp-content/uploads/2022/12/UMA-EMPRENDEDORA-1-760x507.png",
+    "Vox Populi": "https://pbo.pe/wp-content/uploads/2022/12/VOX-POPULI-1-760x507.png",
+    "Rescatando Valores": "https://pbo.pe/wp-content/uploads/2022/12/RESCATANDO-VALORES-1-760x507.png",
+    "En la Mira": "https://pbo.pe/wp-content/uploads/2022/12/EN-LA-MIRA-1-760x507.png",
+    "Conversando con el Perú": "https://pbo.pe/wp-content/uploads/2022/12/CONVERSANDO-CON-EL-PERU-1-760x507.png",
+    "PBO con Denis Vargas Marín": "https://pbo.pe/wp-content/uploads/2022/12/DENIS-VARGAS-MARIN-1-760x507.png",
+    "Entre Nos": "https://pbo.pe/wp-content/uploads/2022/12/ENTRE-NOS-1-760x507.png",
+    "default": "https://pbo.pe/wp-content/uploads/2022/12/rvk-y-carmen-855x405-1-700x405.png"
 };
