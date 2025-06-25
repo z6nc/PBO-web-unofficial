@@ -1,10 +1,9 @@
 import { RedesSocialesPBO } from "../../../data/redesSociales";
-import type { EstiloProps } from "../../../types/estilo.types";
-export function RedesSociales({estilo}:EstiloProps) {
+export function RedesSociales() {
   return (
-    <ul className="flex justify-center items-center space-x-3 text-white my-3">
+    <ul className="flex justify-center items-center space-x-2 text-white my-3">
       {RedesSocialesPBO.map((red) => (
-        <li key={red.id} className={` ${estilo}  rounded-lg border-1`}>
+        <li key={red.id} className={" p-2 rounded-lg border-2 bg-gray-800 backdrop-brightness-90  border-PBO"}>
           <a href={red.url} target="_blank " >
              {red.logo}
           </a>
