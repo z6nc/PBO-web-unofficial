@@ -12,7 +12,7 @@ export const AudioPlayer = () => {
             <ButtomCustom onclick={togglePlay} estilo="w-20 h-20 lg:w-20 lg:h-20  flex  items-center justify-center bg-white  p-2  rounded-full   hover:scale-105 transition cursor-pointer">
                 {isPlaying ? <PauseIcon /> : <PlayIcon />}
             </ButtomCustom>
-            <HostProfile ActualPrograma={currentProgram} />
+            {currentProgram && <HostProfile ActualPrograma={currentProgram} />}
             <ButtomCustom onclick={toggleMute} estilo="text-gray-300 hover:text-white cursor-pointer">
                 {isMuted || volume === 0 ? <MuteIcon /> : <VolumenIcon />}
             </ButtomCustom>
