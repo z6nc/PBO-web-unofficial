@@ -204,11 +204,11 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
          {
         dia: "Jueves",
         programas: [
-            {
-                programa: "PBO Noticias",
-                inicio: "00:00",
-                fin: "1:59",
-            },
+            // {
+            //     programa: "PBO Noticias",
+            //     inicio: "00:00",
+            //     fin: "1:59",
+            // },
             {
                 programa: "PBO con Chema Salcedo",
                 inicio: "2:00",
@@ -269,11 +269,11 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
      {
         dia: "Viernes",
         programas: [
-            {
-                programa: "PBO Noticias",
-                inicio: "00:00",
-                fin: "1:59",
-            },
+            // {
+            //     programa: "PBO Noticias",
+            //     inicio: "00:00",
+            //     fin: "1:59",
+            // },
             {
                 programa: "PBO con Chema Salcedo",
                 inicio: "2:00",
