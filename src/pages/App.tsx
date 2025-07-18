@@ -2,6 +2,7 @@ import { Navbar } from "../components/layout/Navbar/navbar"
 import { HEADERMAIN , HeroSection} from "../components/layout/Header/index"
 import { About } from "../components/layout/About/about"
 import { GridProgramacion } from "../components/layout/GridProgramaciones/gridProgramacion"
+import { Banner } from "../components/layout/Banner/banner"
 function App() {
   return (
     <>
@@ -9,8 +10,10 @@ function App() {
       <Navbar/>
       <HeroSection/>
     </HEADERMAIN>
-    <main className="w-full  lg:max-w-7xl mx-auto ">
-    <GridProgramacion/>
+    <main className="w-full  lg:max-w-7xl mx-auto  flex flex-col items-center justify-center gap-y-9">
+      <GridProgramacion rol="Conductor" numeroGRID={6}  posiciontitulo="mr-auto" nombreTitulo="NUESTRA PROGRAMACION" />
+      <Banner/>
+      
        <About/>
     </main>
     </>
