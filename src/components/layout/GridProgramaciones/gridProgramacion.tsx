@@ -1,12 +1,28 @@
 import { SubtitleCustom } from "../../common/subtitleCustom"
-export const GridProgramacion = () => {
-return(
-    <section> 
-        <SubtitleCustom titulo="Programación" />
-        <div>
-           
-        </div>
-    </section>
-)
+import { colaboradores } from "../../../data/colaboradores"
+import type { PROPSGRID } from "../../../types/grid.types"
+
+export const GridProgramacion = ({rol, numeroGRID, posiciontitulo, nombreTitulo}: PROPSGRID) => {
+    const filteredColaboradores = rol ? colaboradores.filter(colaborador => colaborador.rol === rol) : colaboradores;
+    return (
+        <section className=" flex flex-col mx-4 lg:mx-0">
+            <SubtitleCustom titulo={nombreTitulo} estilo={posiciontitulo} />
+            <div className="grid grid-cols-1 grid-rows-3  md:grid-cols-2  lg:grid-cols-6   gap-4 overflow-hidden  lg:h-[900px]  ">
+                {
+                    filteredColaboradores.slice(0, numeroGRID).map((colaborador , index) => (
+                        <div key={index} className={`relative ${colaborador.estilo} rounded-lg overflow-hidden group `}>
+                             <img className=" w-full h-full object-cover object-top group-hover:scale-110 transition-all ease-linear duration-150 " src={colaborador.imagen as string} alt="" />
+                            <div className="absolute flex flex-col  z-20 text-white bottom-0 w-60 text-center">
+                                <span className="bg-PBO/60 py-2 group-hover:bg-PBO/80">{colaborador.horarios}</span>
+                                <h4 className=" bg-[#292929] p-3 font-semibold text-lg font-Monserat mr-auto">{colaborador.programa}</h4>
+                            </div>
+                        </div>
+                    ))
+                }
+
+
+            </div>
+        </section>
+    )
 
 }
