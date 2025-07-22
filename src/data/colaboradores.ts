@@ -18,7 +18,7 @@ export const colaboradores: PROPSColaboradores[] = [
         imagenPortada: ColaboradesFotoPortada["PBO Salud"],
         descripcion: "",
         rol: "Conductor",
-        estilo:"col-span-1 row-span-1 md:col-span-1    lg:col-span-3 lg:row-span-1"
+        estilo: "col-span-1 row-span-1 md:col-span-1    lg:col-span-3 lg:row-span-1"
     },
     {
         id: "Phillip Butters",
@@ -28,7 +28,7 @@ export const colaboradores: PROPSColaboradores[] = [
         imagen: ImagenesProgramas["PBO Noticias"],
         descripcion: "",
         rol: "Conductor",
-        estilo:"col-span-1 row-span-1 md:col-span-1 lg:col-span-3 lg:row-span-2"
+        estilo: "col-span-1 row-span-1 md:col-span-1 lg:col-span-3 lg:row-span-2"
     },
     {
         id: "Ricardo Vázquez Kunze",
@@ -39,7 +39,7 @@ export const colaboradores: PROPSColaboradores[] = [
         imagenPortada: ColaboradesFotoPortada["PBO con Rvk y Carmen"],
         descripcion: "",
         rol: "Conductor",
-        estilo:"col-span-1 row-span-1  md:col-span-1 lg:col-span-3 lg:row-span-1"
+        estilo: "col-span-1 row-span-1  md:col-span-1 lg:col-span-3 lg:row-span-1"
     },
     {
         id: "Carlos Alberto Navarro",
@@ -50,7 +50,7 @@ export const colaboradores: PROPSColaboradores[] = [
         imagenPortada: ColaboradesFotoPortada["PBO con Rvk y Carmen"],
         descripcion: "",
         rol: "Conductor",
-        estilo:"col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
+        estilo: "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
     },
 
     {
@@ -61,10 +61,10 @@ export const colaboradores: PROPSColaboradores[] = [
         imagen: ImagenesProgramas["PBO con Chema Salcedo"],
         descripcion: "",
         rol: "Conductor",
-        estilo:"col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
+        estilo: "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
 
     },
-     {
+    {
         id: "Marycarmen Sjoo",
         NombreCompleto: "Marycarmen Sjoo",
         programa: "PBO Marycarmen Sjoo",
@@ -72,7 +72,7 @@ export const colaboradores: PROPSColaboradores[] = [
         imagen: ImagenesProgramas["PBO Marycarmen Sjoo"],
         descripcion: "",
         rol: "Conductor",
-        estilo:"col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
+        estilo: "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
     },
     {
         id: "Dennis Vargas Marín",
@@ -82,7 +82,7 @@ export const colaboradores: PROPSColaboradores[] = [
         imagen: ImagenesProgramas["PBO con Denis Vargas Marín"],
         descripcion: "",
         rol: "Conductor",
-        estilo:"col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
+        estilo: "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
 
     },
     {
@@ -102,10 +102,54 @@ export const colaboradores: PROPSColaboradores[] = [
         imagen: ImagenesProgramas["PBO Edicion Estelar"],
         descripcion: "",
         rol: "Conductor",
-        estilo:"col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
+        estilo: "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
 
     },
     
+    {
+        id: "Judit Rodríguez",
+        NombreCompleto: "Judit Rodríguez",
+        imagen: ColaboradesFotoPortada["Judy Rodríguez"],
+        descripcion: "",
+        rol: "Periodista",
+        estilo: "col-span-1 row-span-1 md:col-span-1 lg:col-span-3 lg:row-span-2"
+    },
+       {
+        id: "Kike Bravo Prado",
+        NombreCompleto: "Kike Bravo Prado",
+        imagen: ColaboradesFotoPortada["Kike Prado"],
+        descripcion: "",
+        rol: "Periodista",
+        estilo: "col-span-1 row-span-1 md:col-span-1 lg:col-span-3 lg:row-span-2"
+    },
+      {
+        id: "Karen Herrera",
+        NombreCompleto: "Karen Herrera",
+        imagen: ColaboradesFotoPortada["Karen Herrera"],
+        descripcion: "",
+        rol: "Periodista",
+        estilo: "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
+    },
+    {
+        id: "Elejalder Godos",
+        NombreCompleto: "Elejalder Godos",
+        imagen: ColaboradesFotoPortada["Elejalder Godos"],
+        descripcion: "",
+        rol: "Periodista",
+        estilo: "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
+    },
+   
+  
+     {
+        id: "Katherine Donayre",
+        NombreCompleto: "Katherine Donayre",
+        imagen: ImagenesProgramas["PBO Edicion Estelar"],
+        descripcion: "",
+        rol: "Periodista",
+        estilo: "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
+    },
+ 
+ 
 
 
 ]
