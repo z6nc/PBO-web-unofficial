@@ -1,4 +1,4 @@
-import { SubtitleCustom } from "../../common/subtitleCustom"
+import { SubtitleCustom } from "../../common/titulos/subtitleCustom"
 import { colaboradores } from "../../../data/colaboradores"
 import type { PROPSGRID } from "../../../types/grid.types"
 

@@ -1,5 +1,5 @@
 import { RedesSociales } from "../../common/RedesSociales/listRedsocial";
-import { SubtitleCustom } from "../../common/subtitleCustom";
+import { SubtitleCustom } from "../../common/titulos/subtitleCustom";
 export const About = () => {
     return (
         <div className="flex flex-col items-start  p-4 h-[60dvh]">

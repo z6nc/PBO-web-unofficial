@@ -1,5 +1,5 @@
 import type { PROPSCATEGORIA } from "../../../types/canalesPBO.types"
-import { SubtitleCustom } from "../../common/subtitleCustom"
+import { SubtitleCustom } from "../../common/titulos/subtitleCustom"
 import { canalesPBO } from "../../../data/canalesPBO"
 export function GridCableOperadores({ categoria }: PROPSCATEGORIA) {
     const categoriaCanalesfilter = canalesPBO.filter((canal) => canal.categoria === categoria)
