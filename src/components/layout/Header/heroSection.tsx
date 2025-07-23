@@ -1,4 +1,4 @@
-import { Title } from "../../common/titleCustom";
+import { Title } from "../../common/titulos/titleCustom";
 import { AudioPlayer } from "./playerAudio/auidoPlayer";
 import { ListaCanalesPbo } from "../../common/canales/ListaCanalesPBO";
 export function HeroSection() {
