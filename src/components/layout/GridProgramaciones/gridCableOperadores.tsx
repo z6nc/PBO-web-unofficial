@@ -5,9 +5,9 @@ export function GridCableOperadores({ categoria }: PROPSCATEGORIA) {
     const categoriaCanalesfilter = canalesPBO.filter((canal) => canal.categoria === categoria)
 
     return (
-        <section>
+        <section className=" mx-4 lg:mx-0">
             <SubtitleCustom estilo="text-center" titulo="DISPONIBLE EN TU CABLE FAVORITO" />
-            <div className="flex flex-wrap justify-center items-center gap-5 overflow-hidden">
+            <div className="flex flex-wrap justify-center items-center gap-5  overflow-hidden">
                 {
                     categoriaCanalesfilter.slice(0, 5).map((c) => {
                         return (
