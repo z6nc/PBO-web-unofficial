@@ -3,10 +3,11 @@ interface PROPSBUTTOM extends EstiloProps{
     onclick?: () => void
     children : React.ReactNode 
     type?: "button" | "submit" 
+    arialabel: string
 }
-export const ButtomCustom = ({onclick , children ,estilo, type}:PROPSBUTTOM)=>{
+export const ButtomCustom = ({onclick , children ,estilo, type, arialabel}:PROPSBUTTOM)=>{
     return(
-        <button className={`cursor-pointer ${estilo}`} onClick={onclick} type={type}>
+        <button aria-label={arialabel} className={`cursor-pointer ${estilo}`} onClick={onclick} type={type}>
             {children}
         </button>
     )
