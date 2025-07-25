@@ -8,10 +8,10 @@ export const useProgramas = () => {
     useEffect(() => {
         const program = verificarHora(HorariosProgramas);
         console.log("Programa actual:", program);
-        setCurrentProgram(program );
+        setCurrentProgram(program);
         const interval = setInterval(() => {
             const updatedProgram = verificarHora(HorariosProgramas);
-            setCurrentProgram(updatedProgram );
+            setCurrentProgram(updatedProgram);
             console.log("Programa actual:", updatedProgram);
         }, 600000); // actualiza cada 10 minutos
 
