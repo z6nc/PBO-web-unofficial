@@ -1,6 +1,8 @@
 import type { PROPSTITLE } from "../../../types/title.types"
-export const DescriptionCustom = ({ title }: PROPSTITLE) => {
+import type { EstiloProps } from "../../../types/estilo.types"
+
+export const DescriptionCustom = ({ title, estilo }: PROPSTITLE & EstiloProps) => {
     return (
-        <p className=" text-white text-base md:text-lg 2xl:text-xl">{title}</p>
+        <p className={` text-white text-xl md:text-lg 2xl:text-xl font-bold ${estilo}`}>{title}</p>
     )
 }
