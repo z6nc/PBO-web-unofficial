@@ -10,7 +10,7 @@ export default function Home() {
 
         <div className="relative">
             <ViewModalSocialMedia />
-            <HEADERMAIN imagen="/src/assets/fondoPBO.png" info="PBO Radio" priority>
+            <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/v1753805053/fondoPBO_ogifqw.png" info="PBO Radio" priority>
                 <Banner>
                     <p className="text-white py-1">Este no es el sitio oficial de PBO </p>
                 </Banner>
