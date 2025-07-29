@@ -1,8 +1,5 @@
 import { NavbarItems } from "../../../data/navbarItems"
-import type { EstiloProps } from "../../../types/estilo.types"
-export const ListaItems = ({ estilo }: EstiloProps) => {
-
-
+export const ListaItems = ({ estilo }:{estilo:string}) => {
     return (
         <ul className={`tracking-wider ${estilo}`}>
             {
