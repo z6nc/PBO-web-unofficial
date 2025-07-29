@@ -6,7 +6,7 @@ export function  NewsletterSubscription() {
     return (
         <Banner estilo="flex flex-col items-center justify-center py-36">
             <h3 className="font-Monserat text-2xl  md:text-3xl 2xl:text-4xl text-white font-bold py-2">Sé el primero en saberlo.</h3>
-            <DescriptionCustom title="Únete a nuestro newsletter." />
+            <DescriptionCustom descripcion="Únete a nuestro newsletter." />
             <form action="" className="flex flex-col md:flex-row items-center justify-center gap-2 pt-4" >
                 <InputCustom type="email" placeholder="Tu Email" required/>
                 <ButtonCustom ariaLabel="enviar el correo" type="submit" estilo="border border-white bg-black py-4 px-6 text-white active:scale-95 transition-all duration-300">
