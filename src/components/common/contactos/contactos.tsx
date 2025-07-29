@@ -2,7 +2,7 @@ import { PinMap } from "../../icons"
 import { WhatsApp } from "../../icons/redesSocialesIcons";
 
 import { RedesSocialesPBO } from "../../../data/redesSociales";
-export function SectionContactos({ estilo }: { estilo: string }) {
+export function SectionContactos({ estilo }: { estilo?: string }) {
     const redesSociales = RedesSocialesPBO.find(item => item.NombreRedSocial === "WhatsApp");
 
     return (
