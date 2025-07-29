@@ -28,16 +28,21 @@ export function verificarHora(HorariosProgramas:PROPSPROGRAMAS[]) {
 
     const filtradoFecha = HorariosProgramas.find((h) => h.dia === nombreDelDia);
 
-    if (!filtradoFecha) return null; 
+    if (!filtradoFecha) return ; 
 
+    // encuentra el programa
     const encontrarPrograma = filtradoFecha.programas.find((p) => horasCompletas >= p.inicio && horasCompletas <= p.fin
     );
-    const programaConImagen = ImagenesProgramas[encontrarPrograma?.programa || "Agatha Lys en PBO"];
+    if (!encontrarPrograma) return ;
+    // asigna la imagen al programa
+    // si no encuentra la imagen, asigna una por defecto
+    const programaConImagen = ImagenesProgramas[encontrarPrograma?.programa || "default"] || ImagenesProgramas["default"];
+    
     const programaConImagenCompleto = {
         ...encontrarPrograma,
         imagen: programaConImagen ,
     };
-    return programaConImagenCompleto || null;
+    return programaConImagenCompleto || undefined;
 }
 
 
