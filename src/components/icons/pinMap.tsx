@@ -1,5 +1,4 @@
-import type { EstiloProps } from "../../types/estilo.types"
-export const PinMap = ({estilo}: EstiloProps) => {
+export const PinMap = ({estilo}:{estilo?:string}) => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={` ${estilo}`}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
