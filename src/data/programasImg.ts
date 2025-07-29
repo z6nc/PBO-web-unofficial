@@ -19,7 +19,7 @@ export const  ImagenesProgramas = {
     "default": "https://pbo.pe/wp-content/uploads/2022/12/rvk-y-carmen-855x405-1-700x405.png"
 };
 
-
+// cambiar la key por el nombre del colaborador
 export const  ColaboradesFotoPortada = {
     "PBO Salud": "https://pbo.pe/wp-content/uploads/2022/12/Guiliana-Saldarriaga-760x741.png",
      "PBO con Rvk y Carmen":"https://pbo.pe/wp-content/uploads/2022/12/RICARDO-VAZQUEZ-KUNZE-1-760x741.png",
