@@ -1,7 +1,6 @@
 import type { Programa } from "../types/programas.types"
-import type { EstiloProps } from "../types/estilo.types"
 
-export interface PROPSColaboradores extends EstiloProps {
+export interface PROPSColaboradores  {
     id: string
     NombreCompleto: string
     programa?: Programa['programa']
@@ -10,4 +9,5 @@ export interface PROPSColaboradores extends EstiloProps {
     imagenPortada?: React.ReactNode
     descripcion: string
     rol: "Conductor" | "Periodista"
+    estilo?: string
 }
