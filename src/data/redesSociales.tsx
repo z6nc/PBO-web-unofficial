@@ -1,34 +1,36 @@
 import { TiktokIcon, FacebookIcon, IstagramIcon, XIcon, YoutubeIcon ,WhatsApp} from "../components/icons/redesSocialesIcons"
-export const RedesSocialesPBO = [
+import type { PROPSREDESSOCIALES } from "../types/RedesSociales.types"
+export const RedesSocialesPBO: PROPSREDESSOCIALES[] = [
   {
-    id: "Youtube",
+    NombreRedSocial: "Youtube",
     url: "https://www.youtube.com/@PBO",
-    logo: <YoutubeIcon />
+    logo: <YoutubeIcon estilo="size-6 lg:size-7" />,
   },
   {
-    id: "Facebook",
+    NombreRedSocial: "Facebook",
     url: "https://www.facebook.com/PBOPeru",
-    logo: <FacebookIcon />
+    logo: <FacebookIcon estilo="size-6 lg:size-7" />
   },
   {
-    id: "X",
+    NombreRedSocial: "X",
     url: "https://x.com/PBOPeru",
-    logo: <XIcon />
+    logo: <XIcon estilo="size-6 lg:size-7" />
   },
   {
-    id: "Instagram",
+    NombreRedSocial: "Instagram",
     url: "https://www.instagram.com/pbo_digital/#",
-    logo: <IstagramIcon />
+    logo: <IstagramIcon estilo="size-6 lg:size-7" />
   },
   {
-    id: "Tik Tok",
+    NombreRedSocial: "Tik Tok",
     url: "https://www.tiktok.com/@pbo_digital",
-    logo: <TiktokIcon />
+    logo: <TiktokIcon estilo="size-6 lg:size-7"  />
   },
-      {
-    id: "whatsapp",
+  {
+    NombreRedSocial: "WhatsApp",
     url: "https://api.whatsapp.com/send/?phone=5116449550&text&type=phone_number&app_absent=0",
-    logo: <WhatsApp estilo="size-6" />
+    logo: <WhatsApp estilo="size-6 lg:size-7" />,
+    info: "+51 1 6449550"
   }
 
 ]
