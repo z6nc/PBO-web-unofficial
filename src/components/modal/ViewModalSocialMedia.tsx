@@ -1,6 +1,6 @@
 import { Modal } from "./modal"
 import { useState } from "react"
-import { ButtomCustom } from "../common"
+import { ButtonCustom } from "../common"
 import { ShareIcon } from "../icons/index"
 import { RedesSociales } from "../common/RedesSociales/listRedsocial"
 import { ArrowDownIcon } from "../icons/index"
@@ -9,16 +9,16 @@ export function ViewModalSocialMedia() {
 
     return (
         <article className="fixed bottom-4 right-4 z-50">
-            <ButtomCustom arialabel="Nuestras redes sociales " type="button" onclick={() => setIsOpen(true)} estilo="bg-PBO p-4 rounded-full text-white z-50 hover:scale-105" >
+            <ButtonCustom ariaLabel="Nuestras redes sociales " type="button" onClick={() => setIsOpen(true)} estilo="bg-PBO p-4 rounded-full text-white z-50 hover:scale-105" >
                 <ShareIcon />
-            </ButtomCustom>
+            </ButtonCustom>
             {
                 isOpen && (
                     <Modal >
                         <div className="absolute bottom-20 right-4">
-                            <ButtomCustom arialabel="Nuestras redes sociales " type="button" onclick={() => setIsOpen(false)} estilo="bg-PBO p-4 rounded-full text-white z-50" >
+                            <ButtonCustom ariaLabel="Nuestras redes sociales " type="button" onClick={() => setIsOpen(false)} estilo="bg-PBO p-4 rounded-full text-white z-50" >
                                 <ArrowDownIcon />
-                            </ButtomCustom>
+                            </ButtonCustom>
                             <RedesSociales estilo="flex-col gap-4 " />
                         </div>
                     </Modal>
