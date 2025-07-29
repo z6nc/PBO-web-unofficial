@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 
 export const useAudioPlayer = () => {
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(1);
   const [isMuted, setIsMuted] = useState(false);
@@ -11,8 +11,8 @@ export const useAudioPlayer = () => {
     if (!audio) return;
 
     if (isPlaying) {
-      audio.pause();             
-      audio.load();            
+      audio.pause();
+      audio.load();
       setIsPlaying(false);
     } else {
       audio.play();
@@ -24,7 +24,10 @@ export const useAudioPlayer = () => {
   const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newVolume = parseFloat(e.target.value);
     setVolume(newVolume);
-    audioRef.current.volume = newVolume;
+
+    if (audioRef.current) {
+      audioRef.current.volume = newVolume;
+    }
     if (newVolume === 0) setIsMuted(true);
     else setIsMuted(false);
   };
