@@ -1,4 +1,4 @@
-export const  ImagenesProgramas = {
+export const ImagenesProgramas = {
     "Baella Talks": "https://pbo.pe/wp-content/uploads/2022/12/rvk-y-carmen-855x405-1-700x405.png",
     "Agatha Lys en PBO": "https://pbo.pe/wp-content/uploads/2018/01/AGATHALYS-760x741.png",
     "PBO con Chema Salcedo": "https://pbo.pe/wp-content/uploads/2018/01/CHEMA.png",
@@ -16,16 +16,16 @@ export const  ImagenesProgramas = {
     "Conversando con el Perú": "https://pbo.pe/wp-content/uploads/2022/12/CONVERSANDO-CON-EL-PERU-1-760x507.png",
     "PBO con Denis Vargas Marín": "https://pbo.pe/wp-content/uploads/2022/12/rvk-y-carmen-855x405-1.png",
     "Entre Nos": "https://pbo.pe/wp-content/uploads/2022/12/ENTRE-NOS-1-760x507.png",
-    "default": "https://pbo.pe/wp-content/uploads/2022/12/rvk-y-carmen-855x405-1-700x405.png"
+    "default": "https://pbo.pe/wp-content/uploads/2022/11/pbo.png"
 };
 
 // cambiar la key por el nombre del colaborador
-export const  ColaboradesFotoPortada = {
+export const ColaboradesFotoPortada = {
     "PBO Salud": "https://pbo.pe/wp-content/uploads/2022/12/Guiliana-Saldarriaga-760x741.png",
-     "PBO con Rvk y Carmen":"https://pbo.pe/wp-content/uploads/2022/12/RICARDO-VAZQUEZ-KUNZE-1-760x741.png",
-     "PBO con Chema Salcedo" :"https://pbo.pe/wp-content/uploads/2018/01/CHEMA-760x741.png",
-     "Judy Rodríguez" :"https://pbo.pe/wp-content/uploads/2018/01/JUDI-760x741.png",
-     "Karen Herrera":"https://pbo.pe/wp-content/uploads/2022/12/KAREN-HERRERA-760x741.png",
-     "Kike Prado" :"https://pbo.pe/wp-content/uploads/2018/01/KIKE-760x741.png",
-     "Elejalder Godos":"https://pbo.pe/wp-content/uploads/2018/01/Elejalder-Godos-760x741.png"
+    "PBO con Rvk y Carmen": "https://pbo.pe/wp-content/uploads/2022/12/RICARDO-VAZQUEZ-KUNZE-1-760x741.png",
+    "PBO con Chema Salcedo": "https://pbo.pe/wp-content/uploads/2018/01/CHEMA-760x741.png",
+    "Judy Rodríguez": "https://pbo.pe/wp-content/uploads/2018/01/JUDI-760x741.png",
+    "Karen Herrera": "https://pbo.pe/wp-content/uploads/2022/12/KAREN-HERRERA-760x741.png",
+    "Kike Prado": "https://pbo.pe/wp-content/uploads/2018/01/KIKE-760x741.png",
+    "Elejalder Godos": "https://pbo.pe/wp-content/uploads/2018/01/Elejalder-Godos-760x741.png"
 };
