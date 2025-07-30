@@ -5,6 +5,7 @@ import { Banner } from "../components/layout/Banner/banner"
 import { NewsletterSubscription } from "../components/common/Email/NewsletterSubscription";
 import { Footer } from "../components/layout/Footer/footer";
 import { ViewModalSocialMedia } from "../components/modal/ViewModalSocialMedia";
+import { EnVivoYoutubeBanner } from "../components/common/avisosBanner/enVivoYoutubeBanner";
 export default function Home() {
     return (
 
@@ -19,9 +20,7 @@ export default function Home() {
             </HEADERMAIN>
             <main className="w-full  lg:max-w-7xl mx-auto flex flex-col items-center justify-center gap-y-9 py-4">
                 <GridProgramacion rol="Conductor" numeroGRID={6} posiciontitulo="mr-auto" nombreTitulo="PROGRAMACION SEMANAL" />
-                <Banner estilo="py-36">
-                    <h4 className="text-white text-center text-3xl md:text-4xl font-bold font-Monserat">Escúchanos en el 91.9 FM</h4>
-                </Banner>
+               <EnVivoYoutubeBanner />
                 <GridProgramacion rol="Periodista" numeroGRID={6} posiciontitulo="mr-auto" nombreTitulo="NUESTROS PRESENTADORES" />
                 <NewsletterSubscription />
                 <ListaCableOperadores categoria="cable" />
