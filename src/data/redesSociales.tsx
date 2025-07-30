@@ -4,27 +4,27 @@ export const RedesSocialesPBO: PROPSREDESSOCIALES[] = [
   {
     NombreRedSocial: "Youtube",
     url: "https://www.youtube.com/@PBO",
-    logo: <YoutubeIcon estilo="size-6 lg:size-7" />,
+    logo: <YoutubeIcon estilo="size-5 lg:size-7" />,
   },
   {
     NombreRedSocial: "Facebook",
     url: "https://www.facebook.com/PBOPeru",
-    logo: <FacebookIcon estilo="size-6 lg:size-7" />
+    logo: <FacebookIcon estilo="size-5 lg:size-7" />
   },
   {
     NombreRedSocial: "X",
     url: "https://x.com/PBOPeru",
-    logo: <XIcon estilo="size-6 lg:size-7" />
+    logo: <XIcon estilo="size-5 lg:size-7" />
   },
   {
     NombreRedSocial: "Instagram",
     url: "https://www.instagram.com/pbo_digital/#",
-    logo: <IstagramIcon estilo="size-6 lg:size-7" />
+    logo: <IstagramIcon estilo="size-5 lg:size-7" />
   },
   {
     NombreRedSocial: "Tik Tok",
     url: "https://www.tiktok.com/@pbo_digital",
-    logo: <TiktokIcon estilo="size-6 lg:size-7"  />
+    logo: <TiktokIcon estilo="size-5 lg:size-7"  />
   },
   {
     NombreRedSocial: "WhatsApp",
