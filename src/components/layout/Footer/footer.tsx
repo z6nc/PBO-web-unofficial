@@ -4,7 +4,7 @@ import { ListaItems } from "../Navbar/listaItem";
 import { SectionContactos } from "../../common/contactos/contactos";
 export function Footer() {
     return (
-        <footer className="bg-black text-white py-9 max-h-max">
+        <footer className="bg-black text-white py-9 max-h-max md:min-h-[50dvh]">
             <div className="grid  grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-8 lg:max-w-7xl lg:mx-auto items-start">
                 <div className="w-full flex items-center justify-center py-7 md:py-0">
                     <Logo estilo="w-40" priority={false} />
