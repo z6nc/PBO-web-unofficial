@@ -1,5 +1,6 @@
 import { NavbarItems } from "../../../data/navbarItems"
-export const ListaItems = ({ estilo }:{estilo:string}) => {
+import { Link } from "react-router-dom"
+export const ListaItems = ({ estilo }: { estilo: string }) => {
     return (
         <ul className={`tracking-wider ${estilo}`}>
             {
@@ -7,7 +8,9 @@ export const ListaItems = ({ estilo }:{estilo:string}) => {
                     const importante = itemNavbar.isImportante ? "font-semibold  bg-red-600 text-white" : ""
                     return (
                         <li className={`py-1 px-2 cursor-pointer  rounded-lg overflow-hidden ${importante} transition-colors duration-100 ease-linear hover:bg-PBO  `} key={idx}>
-                            {itemNavbar.item}
+                            <Link to={itemNavbar.url}  >
+                                {itemNavbar.item}
+                            </Link>
                         </li>
 
                     )
