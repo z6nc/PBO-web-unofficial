@@ -17,7 +17,7 @@ export const NavbarItems :PROPSNAV[] = [
     },
       {
         item: "Nuestro equipo",
-        url: "/",
+        url: "/nuestro-equipo",
         isImportante: false
     },
         {
