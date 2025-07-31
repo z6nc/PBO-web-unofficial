@@ -14,7 +14,7 @@ export const ImagenesProgramas = {
     "Rescatando Valores": "https://pbo.pe/wp-content/uploads/2022/12/RESCATANDO-VALORES-1-760x507.png",
     "En la Mira": "https://pbo.pe/wp-content/uploads/2022/12/EN-LA-MIRA-1-760x507.png",
     "Conversando con el Perú": "https://pbo.pe/wp-content/uploads/2022/12/CONVERSANDO-CON-EL-PERU-1-760x507.png",
-    "PBO con Denis Vargas Marín": "https://pbo.pe/wp-content/uploads/2022/12/rvk-y-carmen-855x405-1.png",
+    "PBO con Denis Vargas Marín": "https://pbo.pe/wp-content/uploads/2018/01/DENNIS-VARGAS-760x741.png",
     "Entre Nos": "https://pbo.pe/wp-content/uploads/2022/12/ENTRE-NOS-1-760x507.png",
     "default": "https://pbo.pe/wp-content/uploads/2022/11/pbo.png"
 };
@@ -27,5 +27,7 @@ export const ColaboradesFotoPortada = {
     "Judy Rodríguez": "https://pbo.pe/wp-content/uploads/2018/01/JUDI-760x741.png",
     "Karen Herrera": "https://pbo.pe/wp-content/uploads/2022/12/KAREN-HERRERA-760x741.png",
     "Kike Prado": "https://pbo.pe/wp-content/uploads/2018/01/KIKE-760x741.png",
-    "Elejalder Godos": "https://pbo.pe/wp-content/uploads/2018/01/Elejalder-Godos-760x741.png"
+    "Elejalder Godos": "https://pbo.pe/wp-content/uploads/2018/01/Elejalder-Godos-760x741.png",
+    "Andrea Meza": "https://pbo.pe/wp-content/uploads/2018/01/ANDREA-MEZA-760x741.png",
+    "Ricardo Vasquez Kunze": "https://pbo.pe/wp-content/uploads/2022/12/RICARDO-VAZQUEZ-KUNZE-1-760x741.png"
 };
