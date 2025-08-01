@@ -8,7 +8,7 @@ export const AudioPlayer = () => {
     const currentProgram= useProgramas();
     return (
         <div className="w-full  flex flex-col lg:flex-row    items-center  gap-9 bg-transparent border backdrop-blur-lg rounded-lg text-white p-4   md:max-w-xl  ">
-            <audio ref={audioRef} src="http://stream.radiojar.com/2fse67zuv8hvv" preload="auto" />
+            <audio ref={audioRef} src="https://n0c.radiojar.com/2fse67zuv8hvv?rj-ttl=5&rj-tok=AAABmGf0sX4AfXWYJOAfBp5Flg" preload="auto" />
             <ButtonCustom onClick={togglePlay} ariaLabel={isPlaying ? "Pausar" : "Reproducir"} estilo="w-20 h-20 lg:w-20 lg:h-20  flex  items-center justify-center bg-white  p-2  rounded-full   hover:scale-105 transition cursor-pointer">
                 {isPlaying ? <PauseIcon /> : <PlayIcon />}
             </ButtonCustom>
