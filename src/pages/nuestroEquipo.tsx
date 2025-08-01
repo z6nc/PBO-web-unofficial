@@ -9,7 +9,7 @@ import { Footer } from "../components/layout/Footer/footer";
 export default function NuestroEquipo() {
     return (
         <div className="relative">
-            <HEADERMAIN imagen="https://pbo.pe/wp-content/uploads/2017/03/HOME.png?id=1127" info="PBO Radio" priority>
+            <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/EquipoPBO_blqxgm.webp" info="PBO Radio" priority>
                 <AlertaInformativa />
                 <Navbar />
                 <section className=" h-[80dvh] text-center pt-9">
