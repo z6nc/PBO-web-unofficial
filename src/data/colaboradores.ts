@@ -1,5 +1,4 @@
-/* estilos para Grid {
-       
+/* estilos para Grid {   
 Imagen grande : "col-span-1 row-span-1 md:col-span-1 lg:col-span-3 lg:row-span-2"
 Imagen mediana: "col-span-1 row-span-1 md:col-span-1    lg:col-span-3 lg:row-span-1"
 Imagen pequeña : "col-span-1 row-span-1 md:col-span-1  lg:col-span-2 lg:row-span-1"
