@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div className="relative">
             <ViewModalSocialMedia />
-            <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/v1753805053/fondoPBO_ogifqw.png" info="PBO Radio"  priority>
+            <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/fondoPBO_zrnj7m.webp" info="PBO Radio"  priority>
                 <AlertaInformativa />
                 <Navbar />
                 <HeroSection />
