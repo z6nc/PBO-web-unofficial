@@ -12,7 +12,7 @@ export function ListaCableOperadores({ categoria }: PROPSCATEGORIA) {
                     categoriaCanalesfilter.slice(0, 5).map((c) => {
                         return (
                             <a key={c.Nombre} href={c.url} target="_blank" className="relative group flex flex-col items-center rounded-lg  h-36 md:h-60  overflow-hidden ">
-                                <img className=" w-full h-full  object-cover brightness-95 group-hover:brightness-100 group-hover:scale-110 transition-transform duration-200" src={c.imagen} alt={`Portada de ${c.Nombre}`} />
+                                <img loading="lazy" className=" w-full h-full  object-cover brightness-95 group-hover:brightness-100 group-hover:scale-110 transition-transform duration-200" src={c.imagen} alt={`Portada de ${c.Nombre}`} />
                                 <div className="absolute bottom-0  w-full text-center z-10 ">
                                     <p className="font-Monserat font-bold bg-black text-white py-2">{c.frecuenciaPrincipal}</p>
                                 </div>
