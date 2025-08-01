@@ -13,7 +13,7 @@ export const GridProgramacion = ({ rol, numeroGRID, posiciontitulo, nombreTitulo
                 {
                     filteredColaboradores.slice(0, numeroGRID).map((colaborador, index) => (
                         <div key={index} className={`relative ${colaborador.estilo} rounded-lg overflow-hidden group `}>
-                            <img className=" w-full h-full object-cover object-top group-hover:scale-110 transition-all ease-linear duration-150 " src={colaborador.imagen as string} alt={colaborador.NombreCompleto} />
+                            <img loading="lazy" className=" w-full h-full object-cover object-top group-hover:scale-110 transition-all ease-linear duration-150 " src={colaborador.imagen as string} alt={colaborador.NombreCompleto} />
                             <div className="absolute flex flex-col  z-20 text-white bottom-0 w-60 ">
                                 <span className="bg-PBO/60 py-2 group-hover:bg-PBO/80 px-4 mr-auto">{colaborador.horarios ?? colaborador.rol}</span>
                                 <h4 className=" bg-BlackPBO p-2 font-semibold text-lg font-Monserat ">{colaborador.programa ?? colaborador.NombreCompleto}</h4>
