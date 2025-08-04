@@ -15,7 +15,7 @@ export const colaboradores: PROPSColaboradores[] = [
         programa: "PBO Salud",
         horarios: "L-V / 6:00 am - 7:00 am",
         imagen: ImagenesProgramas["PBO Salud"],
-        imagenPortada: ColaboradesFotoPortada["PBO Salud"],
+        imagenPortada: ImagenesProgramas["PBO Salud"],
         descripcion: "Giulianna Saldarriaga, nutricionista con más de 10 años de experiencia en nutrición clínica. Con una especialización en nutrición oncológica por la Universidad de Barcelona - España.",
         rol: "Conductor",
         estilo: "col-span-1 row-span-1 md:col-span-1    lg:col-span-3 lg:row-span-1"
