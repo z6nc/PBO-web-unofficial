@@ -7,22 +7,22 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
             {
                 programa: "Baella Talks",
                 inicio: "00:00",
-                fin: "1:29",
+                fin: "01:29",
             },
             {
                 programa: "Agatha Lys en PBO",
-                inicio: "1:30",
-                fin: "1:59",
+                inicio: "01:30",
+                fin: "01:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
-                inicio: "2:00",
-                fin: "5:59",
+                inicio: "02:00",
+                fin: "05:59",
             },
             {
                 programa: "PBO Noticias",
-                inicio: "6:00",
-                fin: "9:59",
+                inicio: "06:00",
+                fin: "09:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
@@ -71,23 +71,23 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
             }
         ]
     },
-     {
+    {
         dia: "Martes",
         programas: [
             {
                 programa: "PBO Noticias",
                 inicio: "00:00",
-                fin: "1:59",
+                fin: "01:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
-                inicio: "2:00",
-                fin: "5:59",
+                inicio: "02:00",
+                fin: "05:59",
             },
             {
                 programa: "PBO Noticias",
-                inicio: "6:00",
-                fin: "9:59",
+                inicio: "06:00",
+                fin: "09:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
@@ -136,23 +136,23 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
             }
         ]
     },
-     {
+    {
         dia: "Miercoles",
         programas: [
-            // {
-            //     programa: "PBO Noticias",
-            //     inicio: "0:00",
-            //     fin: "1:59",
-            // },
+            {
+                programa: "PBO Noticias",
+                inicio: "00:00",
+                fin: "01:59",
+            },
             {
                 programa: "PBO con Chema Salcedo",
-                inicio: "2:00",
-                fin: "5:59",
+                inicio: "02:00",
+                fin: "05:59",
             },
             {
                 programa: "PBO Noticias",
-                inicio: "6:00",
-                fin: "9:59",
+                inicio: "06:00",
+                fin: "09:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
@@ -201,23 +201,23 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
             }
         ]
     },
-         {
+    {
         dia: "Jueves",
         programas: [
-            // {
-            //     programa: "PBO Noticias",
-            //     inicio: "00:00",
-            //     fin: "1:59",
-            // },
+            {
+                programa: "PBO Noticias",
+                inicio: "00:00",
+                fin: "01:59",
+            },
             {
                 programa: "PBO con Chema Salcedo",
-                inicio: "2:00",
-                fin: "5:59",
+                inicio: "02:00",
+                fin: "05:59",
             },
             {
                 programa: "PBO Noticias",
-                inicio: "6:00",
-                fin: "9:59",
+                inicio: "06:00",
+                fin: "09:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
@@ -266,23 +266,23 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
             }
         ]
     },
-     {
+    {
         dia: "Viernes",
         programas: [
-            // {
-            //     programa: "PBO Noticias",
-            //     inicio: "00:00",
-            //     fin: "1:59",
-            // },
+            {
+                programa: "PBO Noticias",
+                inicio: "00:00",
+                fin: "01:59",
+            },
             {
                 programa: "PBO con Chema Salcedo",
-                inicio: "2:00",
-                fin: "5:59",
+                inicio: "02:00",
+                fin: "05:59",
             },
             {
                 programa: "PBO Noticias",
-                inicio: "6:00",
-                fin: "9:59",
+                inicio: "06:00",
+                fin: "09:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
@@ -331,23 +331,23 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
             }
         ]
     },
-         {
+    {
         dia: "Sabado",
         programas: [
             {
                 programa: "PBO Noticias",
                 inicio: "00:00",
-                fin: "1:59",
+                fin: "01:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
-                inicio: "2:00",
-                fin: "5:59",
+                inicio: "02:00",
+                fin: "05:59",
             },
             {
                 programa: "PBO Noticias",
-                inicio: "6:00",
-                fin: "9:59",
+                inicio: "06:00",
+                fin: "09:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
@@ -394,10 +394,80 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
                 inicio: "21:00",
                 fin: "21:59",
             },
-             {
+            {
                 programa: "PBO Noticias",
                 inicio: "22:00",
                 fin: "23:54",
+            }
+        ]
+    },
+    {
+        dia: "Domingo",
+        programas: [
+            {
+                programa: "PBO Noticias",
+                inicio: "00:00",
+                fin: "01:59",
+            },
+            {
+                programa: "PBO con Chema Salcedo",
+                inicio: "02:00",
+                fin: "05:59",
+            },
+            {
+                programa: "PBO Salud",
+                inicio: "06:00",
+                fin: "06:59",
+            },
+            {
+                programa: "Vox Populi",
+                inicio: "07:00",
+                fin: "07:59",
+            },
+            {
+                programa: "PBO con Denis Vargas Marín",
+                inicio: "08:00",
+                fin: "09:59",
+            },
+            {
+                programa: "Rumbo Minero",
+                inicio: "10:00",
+                fin: "11:39",
+            },
+            {
+                programa: "Entre Nos",
+                inicio: "11:40",
+                fin: "13:39",
+            },
+            {
+                programa: "PBO con Denis Vargas Marín",
+                inicio: "13:40",
+                fin: "14:39",
+            },
+            {
+                programa: "PBO UMA Emprendedora",
+                inicio: "14:40",
+                fin: "15:49",
+            },
+            {
+                programa: "Conversando con el Perú",
+                inicio: "15:50",
+                fin: "16:59",
+            },
+            {
+                programa: "Rescatando Valores",
+                inicio: "17:00",
+                fin: "17:29",
+            },
+            {
+                programa: "En la Mira",
+                inicio: "17:30",
+                fin: "17:59",
+            },
+            {
+                programa: "Baella Talks",
+                inicio: "18:00",
+                fin: "23:55",
             }
         ]
     },
