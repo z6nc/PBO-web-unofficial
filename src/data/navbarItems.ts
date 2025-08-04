@@ -12,7 +12,7 @@ export const NavbarItems :PROPSNAV[] = [
     },
     {
         item: "Programas",
-        url: "/",
+        url: "/programacion-semanal",
         isImportante: false
     },
       {
