@@ -12,7 +12,7 @@ export default function Home() {
             <ViewModalSocialMedia />
             <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/fondoPBO_zrnj7m.webp" info="PBO Radio"  priority>
                 <AlertaInformativa />
-                <Navbar />
+                <Navbar TipoNavbar="md:bg-transparent"/>
                 <HeroSection />
             </HEADERMAIN>
             <LayoutPrincipal>
