@@ -22,7 +22,7 @@ export const NavbarItems :PROPSNAV[] = [
     },
         {
         item: "Publicitate",
-        url: "/",
+        url: "/publicitate",
         isImportante: false
     },
 ]
