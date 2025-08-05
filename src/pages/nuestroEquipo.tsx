@@ -11,7 +11,7 @@ export default function NuestroEquipo() {
         <div className="relative">
             <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/EquipoPBO_blqxgm.webp" info="PBO Radio" priority>
                 <AlertaInformativa />
-                <Navbar />
+                <Navbar TipoNavbar="md:bg-transparent" />
                 <section className=" h-[80dvh] text-center pt-9">
                     <Title titulo="NUESTRO EQUIPO" />
                 </section>
