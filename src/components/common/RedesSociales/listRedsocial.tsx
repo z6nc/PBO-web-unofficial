@@ -1,14 +1,18 @@
 import { RedesSocialesPBO } from "../../../data/redesSociales";
-export function RedesSociales({estilo}: {estilo?:string}) {
+export function RedesSociales({ estilo }: { estilo?: string }) {
   return (
-    <ul aria-label="Redes sociales de PBO" className={`flex justify-center items-center space-x-2 text-white my-3 ${estilo}`}>
+    <div className={`flex space-x-3 ${estilo}`}>
       {RedesSocialesPBO.map((red) => (
-        <li key={red.NombreRedSocial} className={" p-2 rounded-lg border-2 bg-gray-800 backdrop-brightness-90 "}>
-          <a href={red.url} target="_blank" rel="noopener noreferrer" aria-label={`Visitar ${red.NombreRedSocial} de PBO`}>
-             {red.logo}
-          </a>
-        </li>
+        <a
+          key={red.NombreRedSocial}
+          href={red.url}
+          target="_blank"
+          className="group relative p-3 bg-white/5 hover:bg-white/15 rounded-xl transition-all duration-300 border border-white/10 hover:border-white/30 hover:scale-110"
+          aria-label={red.NombreRedSocial}
+        >
+          {red.logo}
+        </a>
       ))}
-    </ul>
+    </div>
   );
 }
