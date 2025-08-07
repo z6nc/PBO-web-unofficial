@@ -1,27 +1,24 @@
 
 import { HEADERMAIN } from "../components/layout/Header";
 import { Navbar } from "../components/layout/Navbar/navbar";
-import { Title,SubtitleCustom } from "../components/common/titulos/index";
+import { TituloHeader } from "../components/common/titulos/TitulosHeader";
 import { AlertaInformativa } from "../components/common/avisosBanner/alertaInformativa";
 import { LayoutPrincipal } from "../components/layout/LayoutPrincipal/layoutPrincipal";
 import { ListaProgramacion } from "../components/layout/ListaHorariosProgramacion/listaProgramacion";
-import { NewsletterSubscription } from "../components/common/Email/NewsletterSubscription";
+import { EnVivoYoutubeBanner } from "../components/common/avisosBanner";
 import { Footer } from "../components/layout/Footer/footer";
 export default function ProgramacionSemanal() {
     return (
         <div className="relative">
             <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/EquipoPBO_blqxgm.webp" info="PBO Radio" priority>
                 <AlertaInformativa />
-                <Navbar TipoNavbar="md:bg-transparent"/>
-                <section className=" h-[80dvh] text-center pt-9">
-                    <Title titulo="PROGRAMACION SEMANAL" />
-                </section>
+                <Navbar TipoNavbar="md:bg-transparent" />
+                <TituloHeader titulo="Conoce a Nuestra Programacion" informacion="Ofrecemos noticias, análisis y entretenimiento con las voces más reconocidas del periodismo peruano." />
             </HEADERMAIN>
             <LayoutPrincipal>
-                <SubtitleCustom Subtitulo="Nuestra Programacion Semanal" estilo="text-center" />
                 <ListaProgramacion />
             </LayoutPrincipal>
-            <NewsletterSubscription />
+            <EnVivoYoutubeBanner />
             <Footer />
         </div>
     );
