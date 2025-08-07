@@ -1,8 +1,8 @@
 import { Logo } from "../../common";
 import { Link } from "react-router-dom";
-import { Mail , Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { NavbarItems } from "../../../data/navbarItems";
-import {RedesSociales} from "../../common/RedesSociales/listRedsocial";
+import { RedesSociales } from "../../common/RedesSociales/listRedsocial";
 export function Footer() {
     return (
         <footer className="bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white relative overflow-hidden">
@@ -13,7 +13,7 @@ export function Footer() {
 
                     {/* Logo Section - Enhanced */}
                     <div className="lg:col-span-2 space-y-6">
-                            <Logo estilo="w-36" priority />
+                        <Logo estilo="w-36" priority />
                         <p className="hidden lg:block text-sm text-gray-200 lg:w-96 text-wrap">Escúchanos por PBO radio 91.9 FM ¡La radio con fe! PBO es el primer canal multi-plataforma de Perú. Fundado en el 2016 por Phillip Butters, PBO te trae lo último en información nacional e internacional, comentarios políticos, tecnología, salud, deporte y entretenimiento.</p>
                     </div>
 
@@ -24,15 +24,15 @@ export function Footer() {
                         </h3>
                         <nav className="space-y-4">
                             {
-                            NavbarItems.map((item) => (
-                                <Link
-                                    key={item.item}
-                                    to={item.url}
-                                    className="block text-gray-300 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm group"
-                                >
-                                    {item.item}
-                                </Link>
-                            ))}
+                                NavbarItems.map((item) => (
+                                    <Link
+                                        key={item.item}
+                                        to={item.url}
+                                        className="block text-gray-300 hover:text-white hover:translate-x-1 transition-all duration-200 text-sm group"
+                                    >
+                                        {item.item}
+                                    </Link>
+                                ))}
                         </nav>
                     </div>
 
@@ -59,10 +59,8 @@ export function Footer() {
                         </div>
 
                         {/* Social Media - Improved */}
-                        <div className="space-y-4">
-                            <h4 className="text-sm font-semibold text-white">Síguenos</h4>
-                            <RedesSociales estilo="flex space-x-3" />
-                        </div>
+
+                        <RedesSociales estilo="flex space-x-3" />
                     </div>
                 </div>
 
@@ -72,7 +70,7 @@ export function Footer() {
                         <p className="text-gray-400 text-sm">
                             © {new Date().getFullYear()} . Este sitio no es oficial.
                         </p>
-                        
+
                     </div>
                 </div>
             </div>
