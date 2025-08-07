@@ -6,15 +6,15 @@ export function ListaCableOperadores({ categoria }: PROPSCATEGORIA) {
 
     return (
         <section className=" mx-4 lg:mx-0 mb-20">
-            <SubtitleCustom estilo="text-center" Subtitulo="DISPONIBLE EN TU CABLE FAVORITO" />
+            <SubtitleCustom estilo="text-center my-7" Subtitulo="DISPONIBLE EN TU CABLE FAVORITO" />
             <div className="flex flex-wrap justify-center items-center gap-5  overflow-hidden">
                 {
-                    categoriaCanalesfilter.slice(0, 5).map((c) => {
+                    categoriaCanalesfilter.slice(0, 5).map((cable) => {
                         return (
-                            <a key={c.Nombre} href={c.url} target="_blank" className="relative group flex flex-col items-center rounded-lg  h-44 md:h-64  overflow-hidden ">
-                                <img loading="lazy" className=" w-full h-full  object-cover brightness-95 group-hover:brightness-100 group-hover:scale-110 transition-transform duration-200" src={c.imagen} alt={`Portada de ${c.Nombre}`} />
+                            <a key={cable.Nombre} href={cable.url} target="_blank" className="relative group flex flex-col items-center rounded-lg  h-44 md:h-64  overflow-hidden ">
+                                <img loading="lazy" className=" w-full h-full  object-cover brightness-95 group-hover:brightness-100 group-hover:scale-110 transition-transform duration-200" src={cable.imagen} alt={`Portada de ${cable.Nombre}`} />
                                 <div className="absolute bottom-0  w-full text-center z-10 ">
-                                    <p className="font-Monserat font-bold bg-black text-white py-2">{c.frecuenciaPrincipal}</p>
+                                    <p className="font-Monserat font-bold bg-black text-white py-2 text-sm md:text-base">{cable.frecuenciaPrincipal}</p>
                                 </div>
 
                             </a>
