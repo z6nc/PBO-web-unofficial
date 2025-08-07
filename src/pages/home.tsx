@@ -16,9 +16,9 @@ export default function Home() {
                 <HeroSection />
             </HEADERMAIN>
             <LayoutPrincipal>
-                <GridProgramacion rol="Conductor" numeroGRID={6} posiciontitulo="mr-auto" nombreTitulo="PROGRAMACION SEMANAL" />
+                <GridProgramacion rol="Conductor" numeroGRID={6} posiciontitulo="mr-auto my-7" nombreTitulo="PROGRAMACION SEMANAL" />
                 <EnVivoYoutubeBanner />
-                <GridProgramacion rol="Periodista" numeroGRID={6} posiciontitulo="mr-auto" nombreTitulo="NUESTROS PRESENTADORES" />
+                <GridProgramacion rol="Periodista" numeroGRID={6} posiciontitulo="mr-auto my-7" nombreTitulo="NUESTROS PRESENTADORES" />
                 <NewsletterSubscription />
                 <ListaCableOperadores categoria="cable" />
             </LayoutPrincipal>
