@@ -8,7 +8,7 @@ export const GridProgramacion = ({ rol, numeroGRID, posiciontitulo, nombreTitulo
 
     return (
         <section className="flex flex-col mx-4 lg:mx-0 justify-center items-center">
-            <SubtitleCustom Subtitulo={nombreTitulo} estilo={posiciontitulo} />
+            <SubtitleCustom  Subtitulo={nombreTitulo} estilo={posiciontitulo} />
             <div className="grid grid-cols-1 grid-rows-3  md:grid-cols-2  lg:grid-cols-6   gap-4 overflow-hidden lg:h-[900px]">
                 {
                     filteredColaboradores.slice(0, numeroGRID).map((colaborador, index) => (
