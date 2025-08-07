@@ -4,8 +4,8 @@ import { ButtonCustom } from "../buttom/buttonCustom";
 import { DescriptionCustom } from "../titulos/descriptionCustom";
 export function  NewsletterSubscription() {
     return (
-        <Banner estilo=" h-screen">
-            <h3 className="font-Monserat text-2xl  md:text-3xl 2xl:text-4xl text-white font-bold py-2">Sé el primero en saberlo.</h3>
+        <Banner estilo=" h-screen text-center">
+            <h3 className="font-Monserat text-wrap text-3xl 2xl:text-4xl text-white font-bold py-2 mx-2 lg:mx-0">Sé el primero en saberlo.</h3>
             <DescriptionCustom descripcion="Únete a nuestro newsletter." />
             <form action="" className="flex flex-col md:flex-row items-center justify-center gap-2 pt-4" >
                 <InputCustom estilo=" w-72 md:w-96 h-16" type="email" placeholder="Tu Email" required/>
