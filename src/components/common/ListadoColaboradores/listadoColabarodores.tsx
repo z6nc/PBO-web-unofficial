@@ -19,7 +19,7 @@ export function ListadoColaboradores() {
     }
     return (
         <>
-            <section className="flex flex-wrap justify-center items-center gap-4">
+            <section className="flex flex-wrap justify-center items-center gap-4 ">
                 {colaboradores.map((colaborador) => (
                     <ButtonCustom key={colaborador.id} onClick={() => handleOpenModal(colaborador.NombreCompleto)} ariaLabel="s" className="flex flex-col items-center cursor-pointer">
                         <ImagenCustom src={String(colaborador.imagenPortada ?? colaborador.imagen)} alt={colaborador.NombreCompleto} />
