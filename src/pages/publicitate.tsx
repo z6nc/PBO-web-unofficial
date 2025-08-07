@@ -7,7 +7,7 @@ import { FormPublicitate } from "../components/layout/Formularios/formPublicitat
 import { Footer } from "../components/layout/Footer/footer";
 export default function Publicitate() {
     return (
-        <div className="relative">
+        <>
                 <AlertaInformativa />
                 <Navbar TipoNavbar="md:bg-black" />
                
@@ -21,6 +21,6 @@ export default function Publicitate() {
                 </section>
             </LayoutPrincipal>
             <Footer />
-        </div>
+        </>
     );
 }

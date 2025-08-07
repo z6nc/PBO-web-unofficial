@@ -4,15 +4,13 @@ import { LayoutPrincipal } from "../components/layout/LayoutPrincipal/layoutPrin
 import { GridProgramacion, ListaCableOperadores } from "../components/layout/GridProgramaciones/index";
 import { NewsletterSubscription } from "../components/common/Email/NewsletterSubscription";
 import { Footer } from "../components/layout/Footer/footer";
-import { ViewModalSocialMedia } from "../components/modal/ViewModalSocialMedia";
 import { EnVivoYoutubeBanner, AlertaInformativa } from "../components/common/avisosBanner/index";
 export default function Home() {
     return (
-        <div className="relative">
-            <ViewModalSocialMedia />
-            <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/fondoPBO_zrnj7m.webp" info="PBO Radio"  priority>
+        <>
+            <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/fondoPBO_zrnj7m.webp" info="PBO Radio" priority>
                 <AlertaInformativa />
-                <Navbar TipoNavbar="md:bg-transparent"/>
+                <Navbar TipoNavbar="md:bg-transparent" />
                 <HeroSection />
             </HEADERMAIN>
             <LayoutPrincipal>
@@ -23,6 +21,7 @@ export default function Home() {
                 <ListaCableOperadores categoria="cable" />
             </LayoutPrincipal>
             <Footer />
-        </div>
+
+        </>
     )
 }

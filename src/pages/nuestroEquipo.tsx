@@ -8,7 +8,7 @@ import { NewsletterSubscription } from "../components/common/Email/NewsletterSub
 import { Footer } from "../components/layout/Footer/footer";
 export default function NuestroEquipo() {
     return (
-        <div className="relative">
+        <>
             <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/EquipoPBO_blqxgm.webp" info="PBO Radio" priority>
                 <AlertaInformativa />
                 <Navbar TipoNavbar="md:bg-transparent" />
@@ -19,6 +19,7 @@ export default function NuestroEquipo() {
             </LayoutPrincipal>
             <NewsletterSubscription />
             <Footer />
-        </div>
+        </>
+
     );
 }

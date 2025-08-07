@@ -9,7 +9,7 @@ import { EnVivoYoutubeBanner } from "../components/common/avisosBanner";
 import { Footer } from "../components/layout/Footer/footer";
 export default function ProgramacionSemanal() {
     return (
-        <div className="relative">
+        <>
             <HEADERMAIN imagen="https://res.cloudinary.com/dleem7osr/image/upload/EquipoPBO_blqxgm.webp" info="PBO Radio" priority>
                 <AlertaInformativa />
                 <Navbar TipoNavbar="md:bg-transparent" />
@@ -20,6 +20,6 @@ export default function ProgramacionSemanal() {
             </LayoutPrincipal>
             <EnVivoYoutubeBanner />
             <Footer />
-        </div>
+        </>
     );
 }
