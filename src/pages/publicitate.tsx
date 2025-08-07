@@ -12,7 +12,7 @@ export default function Publicitate() {
                 <Navbar TipoNavbar="md:bg-black" />
                
             <LayoutPrincipal>
-                <SubtitleCustom Subtitulo="Forma parte de nuestra familia" estilo="text-center" />
+                <SubtitleCustom Subtitulo="Forma parte de nuestra familia" estilo="text-center my-7" />
                 <section className="grid grid-cols-1  md:grid-cols-2 gap-4 justify-center mt-9 lg:mb-24">
                     <FormPublicitate />
                     <div className=" w-full h-full overflow-hidden ">
