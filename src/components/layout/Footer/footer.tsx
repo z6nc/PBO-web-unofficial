@@ -13,11 +13,8 @@ export function Footer() {
 
                     {/* Logo Section - Enhanced */}
                     <div className="lg:col-span-2 space-y-6">
-                        <div className="group">
                             <Logo estilo="w-36" priority />
-                            <div className="w-20 h-1 bg-gradient-to-r from-white to-transparent mt-3 group-hover:w-32 transition-all duration-300"></div>
-                        </div>
-                        <p className="text-sm text-gray-200 lg:w-96 text-wrap">Escúchanos por PBO radio 91.9 FM ¡La radio con fe! PBO es el primer canal multi-plataforma de Perú. Fundado en el 2016 por Phillip Butters, PBO te trae lo último en información nacional e internacional, comentarios políticos, tecnología, salud, deporte y entretenimiento.</p>
+                        <p className="hidden lg:block text-sm text-gray-200 lg:w-96 text-wrap">Escúchanos por PBO radio 91.9 FM ¡La radio con fe! PBO es el primer canal multi-plataforma de Perú. Fundado en el 2016 por Phillip Butters, PBO te trae lo último en información nacional e internacional, comentarios políticos, tecnología, salud, deporte y entretenimiento.</p>
                     </div>
 
                     {/* About Section - Redesigned */}
