@@ -14,7 +14,7 @@ export default function Contactos() {
             <Navbar TipoNavbar="md:bg-black" />
 
             <LayoutPrincipal>
-                <SubtitleCustom Subtitulo="Contactanos " estilo="text-center" />
+                <SubtitleCustom Subtitulo="Contactanos " estilo="text-center my-7" />
                 <section className="grid grid-cols-1  md:grid-cols-2 gap-4 justify-center md:mt-9 lg:mb-24">
                     <div className="flex flex-col">
                     <FormularioContacto />
