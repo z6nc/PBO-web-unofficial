@@ -276,13 +276,13 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
             },
             {
                 programa: "PBO con Chema Salcedo",
-                inicio: "02:00",
-                fin: "05:59",
+                inicio: "2:00",
+                fin: "5:59",
             },
             {
                 programa: "PBO Noticias",
-                inicio: "06:00",
-                fin: "09:59",
+                inicio: "6:00",
+                fin: "9:59",
             },
             {
                 programa: "PBO con Chema Salcedo",
@@ -411,23 +411,23 @@ export const HorariosProgramas: PROPSPROGRAMAS[] = [
             },
             {
                 programa: "PBO con Chema Salcedo",
-                inicio: "02:00",
-                fin: "05:59",
+                inicio: "2:00",
+                fin: "5:59",
             },
             {
                 programa: "PBO Salud",
-                inicio: "06:00",
-                fin: "06:59",
+                inicio: "6:00",
+                fin: "6:59",
             },
             {
                 programa: "Vox Populi",
-                inicio: "07:00",
-                fin: "07:59",
+                inicio: "7:00",
+                fin: "7:59",
             },
             {
                 programa: "PBO con Denis Vargas Marín",
-                inicio: "08:00",
-                fin: "09:59",
+                inicio: "8:00",
+                fin: "9:59",
             },
             {
                 programa: "Rumbo Minero",
